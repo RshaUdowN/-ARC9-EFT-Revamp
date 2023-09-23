@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/axmc/pistolgrip_ax_accuracy_international_ax_pistol_grip_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/axmc/pistolgrip_ax_accuracy_international_ax_pistol_grip_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+
+	"$phong"					"1"
+	"$phongexponent"			"3"
+	"$phongboost"				".5"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			".3"
+	"$rimmask"					"1"
+}
+//Material setup by ShadowRUN 幸運な. 

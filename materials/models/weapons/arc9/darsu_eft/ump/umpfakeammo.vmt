@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/ump/umpfakeammo"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$color2"					"[0.5 0.5 0.5]"
+	"$alphatest"				"1"
+
+	$detail						"detail\metal_detail_01"
+	$detailscale				8
+	$detailblendfactor			1
+	$detailblendmode			0
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			"0.5"
+	"$envmaptint"				"[ .6 .3 .15 ]"
+
+	"$phong"					"1"
+	"$phongexponent"			"15"
+	"$phongboost"				"20"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+	"$basemapalphaphongmask"	"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"33"	
+	"$rimlightboost"			"5"
+	"$rimmask"					"1"
+
+	Proxies
+	{
+		ARC9_EFT_FAKEAMMO
+		{
+			resultVar	$frame			
+			minusframe 12
+		}
+	}
+
+}

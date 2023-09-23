@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/muzzle_12g_me_muzzle_adapter_cylinder_12g_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/muzzle_12g_me_muzzle_adapter_cylinder_12g_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
+	"$color2"					"[0.5 0.5 0.5]"
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			".5"
+	"$envmaptint"				".13"
+
+	"$phong"					"1"
+	"$phongexponent"			"10"
+	"$phongboost"				"10"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			"3"
+	"$rimmask"					"1"
+
+    "$detail" "arc9/fullheat"
+    "$detailscale" "1"
+    "$detailblendfactor" "0"
+    "$detailblendmode" "5"
+
+    Proxies {
+    	"ARC9_Heat" {
+			blend $detailblendfactor
+    	}
+    }
+}
+//Material setup by ShadowRUN 幸運な. 

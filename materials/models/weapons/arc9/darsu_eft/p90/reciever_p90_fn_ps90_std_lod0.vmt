@@ -1,0 +1,23 @@
+//h?rjenger;) was here 
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/p90/reciever_p90_fn_ps90_std_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/p90/reciever_p90_fn_ps90_std_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/p90/reciever_p90_fn_ps90_std_LOD0_gloss"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[0.5 0.6 1]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "5"
+	"$rimlightexponent" "20"
+	"$rimmask" "1"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[ 0.01 0.01 0.01 ]"
+}

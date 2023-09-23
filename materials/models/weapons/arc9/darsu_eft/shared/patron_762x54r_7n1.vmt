@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/shared/patron_762x54r_7n1_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/shared/patron_762x54r_7n1_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$color2"					"[0.2 0.2 0.2]"
+
+	$detail						"detail\metal_detail_01"
+	$detailscale				8
+	$detailblendfactor			1
+	$detailblendmode			0
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			"0.25"
+	"$envmaptint"				"[ 3 2 1 ]"
+
+	"$phong"					"1"
+	"$phongexponent"			"10"
+	"$phongboost"				"15"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"33"	
+	"$rimlightboost"			"5"
+	"$rimmask"					"1"
+}
+//Material setup by ShadowRUN 幸運な. 
