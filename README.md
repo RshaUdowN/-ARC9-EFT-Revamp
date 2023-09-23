@@ -1,4 +1,5 @@
-# This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 23.09.2023 
+# ARC9 EFT Revamp
+**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 23.09.2023**
 *(except melees and grenades)*
 
 [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2995560876)
@@ -26,10 +27,10 @@
 - PKM + PKP
 
 **Credits:**
-ShadowRUN 幸運な - Shaders
-Battlestate Games - Various assets
+- ShadowRUN 幸運な: Shaders
+- Battlestate Games: Various assets
 
 
 ## Disclaimer:
-## don't re-upload this garbage, don't use parts of it, this is a very cheap solution and only works with EFT crap because everything is split into separate materials.
-## If you got any questions - just ask me directly.
+***don't re-upload this garbage, don't use parts of it, this is a very cheap solution and only works with EFT crap because everything is split into separate materials.*
+If you got any questions - just ask me directly.**
