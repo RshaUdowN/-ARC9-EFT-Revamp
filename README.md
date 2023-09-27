@@ -2,6 +2,8 @@
 **This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 23.09.2023**
 *(except melees and grenades)*
 
+**Install in: steamapps\common\GarrysMod\garrysmod\addons**
+
 [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2995560876)
 
 ### Known issues:
