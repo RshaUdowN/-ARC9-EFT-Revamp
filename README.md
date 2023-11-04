@@ -1,5 +1,5 @@
 # ARC9 EFT Revamp
-**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 23.09.2023**
+**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 05.11.2023**
 *(except melees and grenades)*
 
 **Install in: steamapps\common\GarrysMod\garrysmod\addons**
@@ -27,6 +27,7 @@
 - M870 + FN40GL
 - SVDS
 - PKM + PKP
+- SCAR + SA-58
 
 **Credits:**
 - ShadowRUN 幸運な: Shaders

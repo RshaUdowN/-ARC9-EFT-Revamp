@@ -1,14 +1,14 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/mods/mag_stanag_fn_mk16_std_556x45_30_LOD0_diff"
-	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/mag_stanag_fn_mk16_std_556x45_30_LOD0_nrm"
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/mag_fal_x_products_x_fal_762x51_50_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/mag_fal_x_products_x_fal_762x51_50_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
 	"$color2"					"[0.5 0.5 0.5]"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".5"
-	"$envmaptint"				".5"
+	"$envmaptint"				".13"
 
 	"$phong"					"1"
 	"$phongexponent"			"5"
