@@ -1,7 +1,17 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/mods/glass"
+	"$basetexture"				"models/weapons/arc9/darsu_eft/mods/glass"
+	"$bumpmap"					"dev\flat_normal"
+	"$phongexponenttexture"		"models/weapons/arc9/darsu_eft/exp"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
 
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"15"
 
-	"$color2" "[1.888 1.888 1.888]"
+	"$phong"					"1"
+	"$phongexponent"			"500"
+	"$phongboost"				"1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+
 }
+//Material setup by ShadowRUN 幸運な. 

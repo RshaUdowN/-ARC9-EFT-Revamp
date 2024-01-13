@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/mods/scope_all_valday_1p87_LOD0_diff"
-	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/scope_all_valday_1p87_LOD0_nrm"
+	"$basetexture" "models/weapons/arc9/darsu_eft/ak/barrel_ak12_izhmash_415mm_545x39_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/ak/barrel_ak12_izhmash_415mm_545x39_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
 	"$color2"					"[0.5 0.5 0.5]"
@@ -20,5 +20,18 @@
 	"$rimlightexponent"			"80"
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
+
+			"$detail" "models/weapons/arc9/darsu_eft/ak/ak12h"
+           	"$detailscale" "1"
+           	"$detailblendfactor" "0"
+           	"$detailblendmode" "5"
+
+	"Proxies"
+     {
+		"ARC9_Heat" 
+		{
+			blend $detailblendfactor
+        }
+     }
 }
 //Material setup by ShadowRUN 幸運な. 

@@ -1,5 +1,5 @@
 # ARC9 EFT Revamp
-**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 05.11.2023**
+**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 13.01.2024**
 *(except melees and grenades)*
 
 **Install in: steamapps\common\GarrysMod\garrysmod\addons**

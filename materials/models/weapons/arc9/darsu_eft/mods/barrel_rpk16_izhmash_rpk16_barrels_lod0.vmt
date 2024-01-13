@@ -21,7 +21,7 @@
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
 
-	"$detail"					"arc9/fullheat"
+	"$detail"					"models/weapons/arc9/darsu_eft/mods/rpk16_barrel_heat"
 	"$detailscale"				"1"
 	"$detailblendfactor"		"0"
 	"$detailblendmode"			"5"
