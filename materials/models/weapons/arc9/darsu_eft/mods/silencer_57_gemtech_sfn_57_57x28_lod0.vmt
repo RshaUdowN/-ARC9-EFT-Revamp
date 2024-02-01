@@ -32,6 +32,12 @@ Proxies
 		{
 		blend $detailblendfactor
 		}
-	}
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".03"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

@@ -11,14 +11,24 @@
 	"$envmaptint"				"1"
 
 	"$phong"					"1"
-	"$phongexponent"			"10"
-	"$phongboost"				"50"
+	"$phongexponent"			"5"
+	"$phongboost"				"30"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			"2"
+	"$rimlightboost"			"5"
 	"$rimmask"					"1"
+
+	"Proxies" 
+	{
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" "1"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

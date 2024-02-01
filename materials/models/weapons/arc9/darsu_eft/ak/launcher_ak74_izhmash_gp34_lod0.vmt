@@ -1,28 +1,34 @@
-// ESCAPE FROM TARKOV TACTICAL REALISM WITH HARDCORE MATERIALS
-// Auto converter by Darsu, material setup and vmt by Mal0
-
 "VertexLitGeneric"
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/ak/launcher_ak74_izhmash_gp34_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/ak/launcher_ak74_izhmash_gp34_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/ak/launcher_ak74_izhmash_gp34_LOD0_gloss"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$color2"					"[0.5 0.5 0.5]"
 
-	"$blendtintbybasealpha" "1"
-	"$normalmapalphaenvmapmask" "0"
-	"$basemapalphaenvmapmask" "1"
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			".5"
+	"$envmaptint"				".04"
 
-	"$phong" "1"
-	"$phongboost" "5"
-	"$phongalbedotint" "1"
-	"$phongfresnelranges" "[0.5 1 1]"
-	
-	"$rimlight" "1"
-	"$rimlightexponent" "4"
-	"$rimmask" "1"
-	
-	"$envmap" "env_cubemap"
-	"$envmapfresnel" "0.1"
+	"$phong"					"1"
+	"$phongexponent"			"30"
+	"$phongboost"				"50"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
 
-	"$envmaptint" "[0.025 0.025 0.025]"
-	"$color2" "[0.88 0.88 0.88]"
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			"3"
+	"$rimmask"					"1"
+
+	"Proxies" 
+	{
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".04"
+        }
+    }
 }
+//Material setup by ShadowRUN 幸運な. 

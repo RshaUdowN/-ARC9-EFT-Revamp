@@ -13,5 +13,14 @@
 	"$phongboost"				"1"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 
+	"Proxies" 
+	{
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" "15"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

@@ -15,4 +15,15 @@
 	"$envmapfresnel" "0.1"
 	"$normalmapalphaenvmapmask" "0"
 	"$basemapalphaenvmapmask" "1"
+
+	"Proxies" 
+	{
+		"Arc9EnvMapTint"
+		{
+			"specularity" ".5"
+			"min" "0"
+			"max" ".35"
+		}
+	}
 }
+//Material setup by ShadowRUN 幸運な. 

@@ -4,15 +4,15 @@
 	"$bumpmap" "models/weapons/arc9/darsu_eft/sr2m/silencer_sr2m_tochmash_suppressor_9x21_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
-	"$color2"					"[0.5 0.5 0.5]"
+	"$color2"					"[0.2 0.2 0.2]"
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			".5"
-	"$envmaptint"				".5"
-	"$тщкьфдьфзфдзрфenvmapьфыл"	"1"
+	"$envmapfresnel"			".75"
+	"$envmaptint"				".06"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
-	"$phongexponent"			"15"
+	"$phongexponent"			"30"
 	"$phongboost"				"30"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
@@ -22,23 +22,14 @@
 	"$rimlightboost"			"1"
 	"$rimmask"					"1"
 
-	"$detail" "models/weapons/arc9/darsu_eft/sr2m/sr2m_sil_heat"
-    "$detailscale" "1"
-    "$detailblendfactor" "0"
-    "$detailblendmode" "5"
-	
-	"Proxies"
-     {
+	"Proxies" 
+	{
         "Arc9EnvMapTint"
         {
-            "specularity" "0.5"
+            "specularity" ".5"
             "min" "0"
-            "max" "0.05"
+            "max" ".06"
         }
-
-    	"ARC9_Heat" {
-			blend $detailblendfactor
-    	}
-     }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

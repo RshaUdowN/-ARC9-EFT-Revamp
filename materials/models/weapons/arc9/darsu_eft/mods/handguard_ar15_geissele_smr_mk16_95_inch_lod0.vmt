@@ -19,5 +19,16 @@
 	"$rimlightexponent"			"80"
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
+
+	"Proxies"
+     {
+		"Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".2"
+            "color" ".2 .1 .025"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

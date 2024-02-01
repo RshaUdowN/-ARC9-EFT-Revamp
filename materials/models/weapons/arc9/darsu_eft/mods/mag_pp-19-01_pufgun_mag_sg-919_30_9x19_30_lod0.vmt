@@ -3,21 +3,32 @@
 	"$basetexture" "models/weapons/arc9/darsu_eft/mods/mag_pp-19-01_pufgun_mag_sg-919_30_9x19_30_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/mag_pp-19-01_pufgun_mag_sg-919_30_9x19_30_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
-	"$color2"					"[0.75 0.75 0.75]"
+//	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
+	"$color2"					"[0.55 0.55 0.55]"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".75"
-	"$envmaptint"				".13"
+	"$envmaptint"				".04"
 
 	"$phong"					"1"
-	"$phongexponent"			"5"
-	"$phongboost"				"1"
+	"$phongexponent"			"15"
+	"$phongboost"				"15"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".2"
+	"$rimlightboost"			"3"
 	"$rimmask"					"1"
+
+	"Proxies" 
+	{
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".04"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

@@ -8,7 +8,7 @@
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".5"
-	"$envmaptint"				".5"
+	"$envmaptint"				".3"
 
 	"$phong"					"1"
 	"$phongexponent"			"15"
@@ -20,5 +20,15 @@
 	"$rimlightexponent"			"80"
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
+
+	"Proxies"
+     {
+		"Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".3"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

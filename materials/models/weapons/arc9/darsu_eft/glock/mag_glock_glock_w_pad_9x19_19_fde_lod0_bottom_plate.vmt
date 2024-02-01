@@ -1,3 +1,4 @@
+
 "VertexLitGeneric"
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/glock/mag_glock_glock_w_pad_9x19_19_fde_LOD0_bottom_plate_diff"
@@ -18,5 +19,15 @@
 	"$rimlightexponent"			"80"
 	"$rimlightboost"			",2"
 	"$rimmask"					"1"
+
+	"Proxies"
+     {
+		"Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".06"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 

@@ -4,21 +4,31 @@
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/reciever_aks74u_izhmash_aks74u_std_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
-	"$color2"					"[0.5 0.5 0.5]"
+	"$color2"					"[0.4 0.4 0.4]"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".5"
-	"$envmaptint"				".5"
+	"$envmaptint"				".13"
 
 	"$phong"					"1"
-	"$phongexponent"			"30"
-	"$phongboost"				"40"
+	"$phongexponent"			"50"
+	"$phongboost"				"30"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			"3"
+	"$rimlightboost"			".5"
 	"$rimmask"					"1"
+
+	"Proxies" 
+	{
+        "Arc9EnvMapTint"
+        {
+            "specularity" ".5"
+            "min" "0"
+            "max" ".13"
+        }
+    }
 }
 //Material setup by ShadowRUN 幸運な. 
