@@ -25,18 +25,20 @@
     "$detailscale" "1"
     "$detailblendfactor" "0"
     "$detailblendmode" "5"
-	
-	"Proxies"
+
+	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+
+Proxies
+	{
+	"ARC9_Heat"
 		{
-    	"ARC9_Heat" {
-			blend $detailblendfactor
-    	}
-        "Arc9EnvMapTint"
-        {
-            "specularity" ".5"
-            "min" "0"
-            "max" ".13"
-        }
+		blend $detailblendfactor
+		}
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
     }
 }
-//Material setup by ShadowRUN 幸運な. 
+//Material setup by Shadow_RUN.

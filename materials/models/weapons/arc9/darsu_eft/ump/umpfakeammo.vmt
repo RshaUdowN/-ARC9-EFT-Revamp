@@ -27,13 +27,15 @@
 	"$rimlightboost"			"5"
 	"$rimmask"					"1"
 
+	"$DEM_TintScale" 			"[.6 .3 .15]" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+
 	Proxies
 	{
-		ARC9_EFT_FAKEAMMO
+		"DynamicEnvMap"
 		{
-			resultVar	$frame			
-			minusframe 12
+			resultVar	"$envmaptint"
 		}
-	}
-
+    }
 }
+//Material setup by Shadow_RUN.

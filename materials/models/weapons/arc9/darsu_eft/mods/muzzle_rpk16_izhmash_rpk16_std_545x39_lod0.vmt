@@ -26,17 +26,13 @@
 	"$detailblendfactor"		"0"
 	"$detailblendmode"			"5"
 
-		Proxies 
-			{
-			"ARC9_Heat" {
+
+Proxies
+	{
+		"ARC9_Heat"
+		{
 			blend $detailblendfactor
-        	}
-        "Arc9EnvMapTint"
-        {
-            "specularity" ".5"
-            "min" "0"
-            "max" ".03"
-        }
+		}
     }
 }
-//Material setup by ShadowRUN 幸運な. 
+//Material setup by Shadow_RUN.

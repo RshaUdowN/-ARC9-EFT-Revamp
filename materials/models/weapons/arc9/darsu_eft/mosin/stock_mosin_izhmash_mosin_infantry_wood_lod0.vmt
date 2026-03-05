@@ -2,7 +2,7 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/mosin/stock_mosin_izhmash_mosin_infantry_wood_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mosin/stock_mosin_izhmash_mosin_infantry_wood_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongexponenttexture" 	"dev/bump"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
 
 	"$envmap"					"env_cubemap"
@@ -11,22 +11,24 @@
 
 	"$phong"					"1"
 	"$phongexponent"			"10"
-	"$phongboost"				".5"
+	"$phongboost"				".3"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".2"
+	"$rimlightboost"			".5"
 	"$rimmask"					"1"
 
-	"Proxies" 
+	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+
+	Proxies
 	{
-        "Arc9EnvMapTint"
-        {
-            "specularity" ".5"
-            "min" "0"
-            "max" ".13"
-        }
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
     }
 }
-//Material setup by ShadowRUN 幸運な. 
+//Material setup by Shadow_RUN.

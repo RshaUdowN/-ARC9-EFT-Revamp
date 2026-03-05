@@ -21,4 +21,15 @@
 	"$rimlightboost"			"3"
 	"$rimmask"					"1"
 }
-//Material setup by ShadowRUN 幸運な. 
+	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+	
+	"Proxies"
+     {
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
+    }
+}
+//Material setup by Shadow_RUN.
