@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/aps/sight_rear_aps_molot_aps_std_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/aps/sight_rear_aps_molot_aps_std_LOD0_nrm"
+	"$phongexponenttexture"		"sprites/white"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$color2"					"[0.5 0.5 0.5]"
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			"1"
+	"$envmaptint"				"1"
+
+	"$phong"					"1"
+	"$phongexponent"			"100"
+	"$phongboost"				"15"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			".5"
+	"$rimmask"					"1"
+
+	"$DEM_TintScale" 			"1" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+	
+	"Proxies"
+     {
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
+    }
+}
+//Material setup by Shadow_RUN.

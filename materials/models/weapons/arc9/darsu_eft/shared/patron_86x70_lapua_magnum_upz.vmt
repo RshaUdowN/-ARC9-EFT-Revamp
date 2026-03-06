@@ -2,7 +2,7 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/shared/patron_86x70_lapua_magnum_upz_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/shared/patron_86x70_lapua_magnum_upz_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
+	"$phongexponenttexture"		"sprites/white"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
 	"$color2"					"[0.2 0.2 0.2]"
 
@@ -17,7 +17,7 @@
 
 	"$phong"					"1"
 	"$phongexponent"			"5"
-	"$phongboost"				"10"
+	"$phongboost"				"5"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
@@ -29,7 +29,7 @@
 	"$DEM_TintScale" 			"[1.6 1 .4]" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 
-	Proxies
+	"Proxies" 
 	{
 		"DynamicEnvMap"
 		{
