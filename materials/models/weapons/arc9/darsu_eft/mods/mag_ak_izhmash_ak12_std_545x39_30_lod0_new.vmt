@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_ak12_std_545x39_30_LOD0_new_diff"
-	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_ak12_std_545x39_30_LOD0_new_nrm"
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_ak12_std_545x39_30_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_ak12_std_545x39_30_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
 //	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
 	"$color2"					"[0.55 0.55 0.55]"
