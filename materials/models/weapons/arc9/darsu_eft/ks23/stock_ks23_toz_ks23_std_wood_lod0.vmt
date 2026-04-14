@@ -2,24 +2,25 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/ks23/stock_ks23_toz_ks23_std_wood_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/ks23/stock_ks23_toz_ks23_std_wood_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$phongexponenttexture" 	"models/weapons/arc9/darsu_eft/at10"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal"
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			".9"
-	"$envmaptint"				".13"
+	"$envmapfresnel"			".75"
+	"$envmaptint"				".3"
 
 	"$phong"					"1"
-	"$phongexponent"			"30"
-	"$phongboost"				".5"
+	"$phongexponent"			"20"
+	"$phongboost"				"3"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".2"
+	"$rimlightboost"			".3"
 	"$rimmask"					"1"
 
-	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_TintScale" 			".3" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 
 	Proxies

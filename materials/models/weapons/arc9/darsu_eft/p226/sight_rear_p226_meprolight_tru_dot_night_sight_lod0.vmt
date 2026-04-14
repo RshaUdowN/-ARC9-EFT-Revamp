@@ -25,5 +25,16 @@
            	"$detailscale" "1"
            	"$detailblendfactor" "0.5"
            	"$detailblendmode" "5"
+
+	"$DEM_TintScale" 			".06" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+
+	Proxies
+	{
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
+    }
 }
 //Material setup by Shadow_RUN.
