@@ -1,5 +1,5 @@
 # ARC9 EFT Revamp
-**This is a "bolt-on" mod for all of Darsu's ARC9 EFT packs released as of 13.01.2024**
+**This is a "bolt-on" mod for -all- most of Darsu's ARC9 EFT packs released as of 15.04.2026**
 *(except melees and grenades)*
 
 **Install in: steamapps\common\GarrysMod\garrysmod\addons**
@@ -8,7 +8,7 @@
 
 ### Known issues:
 - Some weapons have some very obvious dоgshit compression, blame darsu for that
-- About 95% of materials have been reworked so far, some unfinished
+- About 30% of materials have been reworked so far, some unfinished
 - Default AKM handguard looks ugly for technical reasons, use VPO handguards instead
 
 ### Included are the following packs:
