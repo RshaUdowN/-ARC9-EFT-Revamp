@@ -1,29 +1,31 @@
-"VertexlitGeneric"
+"VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9_eft_shared/atts/scope/ta01/ta01_tan_d"
-	"$bumpmap" "models/weapons/arc9_eft_shared/atts/scope/ta01/ta01_n"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
+	"$basetexture" "models/weapons/arc9/darsu_eft/grenades/Item_spec_mining_kit_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/grenades/Item_spec_mining_kit_nrm"
+	"$phongexponenttexture"		"models/weapons/arc9/darsu_eft/at10"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal2"
+	"$color2"					"[0.85 0.85 0.85]"
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			".5"
+	"$envmapfresnel"			".75"
 	"$envmaptint"				".13"
 
 	"$phong"					"1"
-	"$phongexponent"			"10"
-	"$phongboost"				"1"
+	"$phongexponent"			"5"
+	"$phongboost"				"2"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".2"
+	"$rimlightboost"			"3"
 	"$rimmask"					"1"
 
 	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
-	
-	"Proxies"
-     {
+
+	Proxies
+	{
 		"DynamicEnvMap"
 		{
 			resultVar	"$envmaptint"

@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/grenades/rshg2_belt_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/grenades/rshg2_belt_LOD0_nrm"
+	"$phongexponenttexture"		"models/weapons/arc9/darsu_eft/at5"
+
+	"$phong"					"1"
+	"$phongexponent"			"1"
+	"$phongboost"				"1"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			"1"
+	"$rimmask"					"1"
+}
+//Material setup by Shadow_RUN.
