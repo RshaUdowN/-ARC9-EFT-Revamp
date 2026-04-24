@@ -1,10 +1,10 @@
 # ARC9 EFT Revamp
-This is a "bolt-on" addon for [**Darsu's ARC9 EFT weapon packs**] (https://steamcommunity.com/workshop/filedetails/?id=2952911209) that improves visual appearance of most weapons and attachments.
+This is a "bolt-on" addon for [Darsu's ARC9 EFT weapon packs] (https://steamcommunity.com/workshop/filedetails/?id=2952911209) that improves visual appearance of most weapons and attachments.
 Try it out, it looks much better in-game.
 
 ***-How does it work?***
 Download a zip archive and extract it's contents into the following folder: **\Steam\steamapps\common\GarrysMod\garrysmod\addons**
-Go to [**addon page on Steam**] (https://steamcommunity.com/sharedfiles/filedetails/?id=2995560876)
+Go to [addon page on Steam] (https://steamcommunity.com/sharedfiles/filedetails/?id=2995560876)
 Press "**Subscribe to All**", then press "**Unsubscribe**"
 
 Setting graphics to High is strongly advised.
