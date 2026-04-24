@@ -3,7 +3,8 @@ This is a "bolt-on" addon for [**Darsu's ARC9 EFT weapon packs**](https://steamc
 Try it out, it looks much better in-game.
 
 ***-How does it work?***
-Download a zip archive and extract it's contents into the following folder: **\Steam\steamapps\common\GarrysMod\garrysmod\addons**
+Download a zip archive and extract it's contents into the following folder:
+**\Steam\steamapps\common\GarrysMod\garrysmod\addons**
 Go to [**addon page on Steam**](https://steamcommunity.com/sharedfiles/filedetails/?id=2995560876)
 Press "**Subscribe to All**", then press "**Unsubscribe**"
 
@@ -26,7 +27,6 @@ Setting graphics to High is strongly advised.
 - Shadow_RUN: Shaders
 - darsu: Porting asets from EFT
 - Battlestate Games: Various assets
-
 
 ## Disclaimer:
 ***don't re-upload this garbage, don't use parts of it, this is a very cheap solution and only works with EFT crap because everything is split into separate materials.*
