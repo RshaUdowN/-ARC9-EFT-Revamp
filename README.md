@@ -11,7 +11,7 @@ Press "**Subscribe to All**", then press "**Unsubscribe**"
 Setting graphics to High is strongly advised.
 ### Known issues:
 -Some weapons have some very obvious garbo compression, blame darsu and DXT compression
--About 50% of materials have been reworked as of 24.04.2026
+-About 50% of materials have been reworked as of 07.05.2026
 -Default AKM handguard looks ugly for technical reasons, use VPO handguards instead
 
 ### Included are the following weapons:
