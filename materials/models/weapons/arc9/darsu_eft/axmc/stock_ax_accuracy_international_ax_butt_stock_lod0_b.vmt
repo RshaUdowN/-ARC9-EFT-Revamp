@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/blackaxmc/stock_ax_accuracy_international_ax_butt_stock_LOD0_diff"
+	"$basetexture" "models/weapons/arc9/darsu_eft/blackaxmc/stock_ax_accuracy_international_ax_butt_stock_LOD0_diff_pb"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/axmc/stock_ax_accuracy_international_ax_butt_stock_LOD0_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
