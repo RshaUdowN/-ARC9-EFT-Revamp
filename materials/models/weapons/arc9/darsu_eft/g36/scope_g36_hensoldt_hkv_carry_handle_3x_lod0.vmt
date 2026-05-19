@@ -1,12 +1,12 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/ump/stock_ump_hk_ump_std_LOD0_diff"
-	"$bumpmap" "models/weapons/arc9/darsu_eft/ump/stock_ump_hk_ump_std_LOD0_nrm"
+	"$basetexture" "models/weapons/arc9/darsu_eft/g36/scope_g36_hensoldt_hkv_carry_handle_3x_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/g36/scope_g36_hensoldt_hkv_carry_handle_3x_LOD0_nrm"
 	"$phongexponenttexture"		"sprites/white"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal2"
-	"$color2"					"[0.5 0.5 0.5]"
+	"$color2"					"[0.6 0.6 0.6]"
 
-	$detail						"models/weapons/arc9/darsu_eft/ump/stock_ump_hk_ump_std_LOD0_diff"
+	$detail						"models/weapons/arc9/darsu_eft/g36/scope_g36_hensoldt_hkv_carry_handle_3x_LOD0_diff"
 	$detailscale				1
 	$detailblendfactor			1
 	$detailblendmode			0
@@ -17,7 +17,7 @@
 
 	"$phong"					"1"
 	"$phongexponent"			"3"
-	"$phongboost"				"10"
+	"$phongboost"				"15"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 

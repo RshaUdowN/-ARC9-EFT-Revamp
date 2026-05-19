@@ -1,23 +1,23 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9/darsu_eft/ump/silencer_ump_b&t_ump_45_1143x23_LOD0_diff"
-	"$bumpmap" "models/weapons/arc9/darsu_eft/ump/silencer_ump_b&t_ump_45_1143x23_LOD0_nrm"
-	"$phongexponenttexture"		"sprites/white"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal2"
-	"$color2"					"[0.65 0.65 0.65]"
+	"$basetexture" "dev/bump"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/pl15/weapon_izhmash_pl15_9x19_LOD0_nrm"
+	"$phongexponenttexture"		"models/weapons/arc9/darsu_eft\at1"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$color2"					"[1 0.85 0.7]"
 
-	$detail						"models/weapons/arc9/darsu_eft/ump/silencer_ump_b&t_ump_45_1143x23_LOD0_diff"
+	$detail						"models/weapons/arc9/darsu_eft/pl15/weapon_izhmash_pl15_9x19_LOD0_diff"
 	$detailscale				1
 	$detailblendfactor			1
 	$detailblendmode			0
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			".75"
+	"$envmapfresnel"			".5"
 	"$envmaptint"				".3"
 
 	"$phong"					"1"
 	"$phongexponent"			"3"
-	"$phongboost"				"10"
+	"$phongboost"				".5"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
@@ -26,20 +26,11 @@
 	"$rimlightboost"			"1"
 	"$rimmask"					"1"
 
-	"$detail" "models/weapons/arc9/darsu_eft/ump/btsil"
-    "$detailscale" "1"
-    "$detailblendfactor" "0"
-    "$detailblendmode" "5"
-
 	"$DEM_TintScale" 			".3" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 
-Proxies
+	Proxies
 	{
-	"ARC9_Heat"
-		{
-		blend $detailblendfactor
-		}
 		"DynamicEnvMap"
 		{
 			resultVar	"$envmaptint"
