@@ -6,18 +6,18 @@
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			".75"
+	"$envmapfresnel"			".9"
 	"$envmaptint"				".13"
 
 	"$phong"					"1"
-	"$phongexponent"			"100"
+	"$phongexponent"			"75"
 	"$phongboost"				".5"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".2"
+	"$rimlightboost"			".5"
 	"$rimmask"					"1"
 
 	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is

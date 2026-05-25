@@ -3,22 +3,22 @@
 	"$basetexture" "models/weapons/arc9/darsu_eft/aps/silencer_apb_toz_apb_std_9x18pm_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/aps/silencer_apb_toz_apb_std_9x18pm_LOD0_nrm"
 	"$phongexponenttexture"		"sprites/white"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
 	"$color2"					"[0.5 0.5 0.5]"
 
 	"$envmap"					"env_cubemap"
-	"$envmapfresnel"			"1"
-	"$envmaptint"				"1"
+	"$envmapfresnel"			".5"
+	"$envmaptint"				".5"
 
 	"$phong"					"1"
-	"$phongexponent"			"100"
-	"$phongboost"				"15"
+	"$phongexponent"			"10"
+	"$phongboost"				"20"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
 	"$rimlight"					"1"
 	"$rimlightexponent"			"80"
-	"$rimlightboost"			".5"
+	"$rimlightboost"			"1"
 	"$rimmask"					"1"
 
 	"$detail" "models/weapons/arc9/darsu_eft/aps/sh"
@@ -26,7 +26,7 @@
     "$detailblendfactor" "0"
     "$detailblendmode" "5"
 
-	"$DEM_TintScale" 			"1" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_TintScale" 			".5" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 	
 Proxies

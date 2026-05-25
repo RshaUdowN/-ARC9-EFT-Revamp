@@ -8,11 +8,11 @@
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".75"
-	"$envmaptint"				".3"
+	"$envmaptint"				".5"
 
 	"$phong"					"1"
 	"$phongexponent"			"15"
-	"$phongboost"				"20"
+	"$phongboost"				"10"
 	"$phongfresnelranges"		"[0.32 0.72 0.99]"
 	"$phongalbedotint"			"1"
 
@@ -21,7 +21,7 @@
 	"$rimlightboost"			"1"
 	"$rimmask"					"1"
 
-	"$DEM_TintScale" 			".3" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_TintScale" 			".5" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 
 	Proxies
