@@ -3,7 +3,7 @@
 	"$basetexture" "models/weapons/arc9/darsu_eft/vsk/handguard_9a91_kbp_vsk94_std_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/vsk/handguard_9a91_kbp_vsk94_std_LOD0_nrm"
 	"$phongexponenttexture"		"sprites/white"
-	"$color2"					"[0.75 0.75 0.75]"
+	"$color2"					"[0.5 0.5 0.5]"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".9"
