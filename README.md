@@ -11,16 +11,16 @@ Press "**Subscribe to All**", then press "**Unsubscribe**"
 Setting graphics to High is strongly advised.
 ### Known issues:
 -Some weapons have some very obvious garbo compression, blame darsu and DXT compression
--About 60% of materials have been reworked as of 12.08.2026
+-About 80% of materials have been reworked as of 11.11.2026
 -Default AKM handguard looks ugly for technical reasons, use VPO handguards instead
 
 ### Included are the following weapons:
 -Pistols: Glocks, M9A3, Five-seveN, USP, MP-443, P226, RSh-12, Rhino, PL-15, Desert Eagles, PM, PB, APS, Gyurza, M1911A1, M45A1, TT-33
--SMGs/PDWs: P90, Saiga-9, SR2M, UMP
+-SMGs/PDWs: MP5, MP7, MP9, P90, PPSh-41, Saiga-9, SR2M, SR3M, UMP
 -Shotguns: AA-12, KS-23, M9Super90, M870, MP-133, MP-153, MP-155, MP-43, MTs-255, TOZ-106, Saiga-12K
 -Assault Rifles: AKs, AR15s, ASh-12, AUGs, G36s, HK416, Radian Model 1, SA-58, SCARs
 -Rifles: AXMC, AK50, Mosin, MP-18, SV-98, SVDS, VPO-215
--Machine Guns: PK
+-Machine Guns: M60, PK, RPD, RPK-16
 -Miscellaneous: FN40GL
 
 ## Credits:

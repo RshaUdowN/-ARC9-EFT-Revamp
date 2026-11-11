@@ -9,6 +9,7 @@
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".25"
 	"$envmaptint"				".04"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
 	"$phongexponent"			"30"
