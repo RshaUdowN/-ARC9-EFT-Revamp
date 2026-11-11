@@ -1,0 +1,59 @@
+"VertexLitGeneric"
+{
+    "$basetexture"      "models/weapons/arc9/darsu_eft/mods/mag_ak74_magpul_pmag_30_ak74_gen_m3_545x39_30_LOD0_diff_fde"
+    "$bumpmap"          "models/weapons/arc9/darsu_eft/mods/mag_ak74_magpul_pmag_30_ak74_gen_m3_545x39_30_LOD0_nrm"
+	"$phongexponenttexture"		"models/weapons/arc9/darsu_eft/at5"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal2"
+	"$color2"					"[0.95 0.95 0.95]"
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			".25"
+	"$envmaptint"				".05"
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong"					"1"
+	"$phongexponent"			"3"
+	"$phongboost"				"3"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"1"
+	"$rimlightboost"			"10"
+	"$rimmask"					"1"
+
+	"$DEM_TintScale" 			".03" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+    
+    "$detailblendmode" "4"
+    "$detailblendfactor" "0.5"
+    "$detailscale" "1"
+
+    "$detailangle" 0
+    "$attname" eft_mag_ak_pmag_545_30_fde
+    
+
+Proxies
+	{
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
+        "Arc9CustomCamoAdvanced" 
+        {
+            "camoTexture" $detail
+            "camoScale" $detailscale
+            "camoAngle" $detailangle
+            "camoBlendMode" $detailblendmode
+            "camoBlendFactor" $detailblendfactor
+            "phonk" $phongboost
+            "color" "[0.99 0.99 0.99]"
+        }
+        "TextureTransform"
+        {
+            "rotateVar" "$detailangle"
+            "resultVar" "$detailtexturetransform"
+        }
+    }
+}
+//Material setup by Shadow_RUN.

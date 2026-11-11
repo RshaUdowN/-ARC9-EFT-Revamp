@@ -2,8 +2,8 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/mods/sight_rear_ak_izhmash_akmp_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/sight_rear_ak_izhmash_akmp_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$phongexponenttexture"		"sprites/white"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal"
 	"$color2"					"[0.4 0.4 0.4]"
 
 	"$detail"					"models/weapons/arc9/darsu_eft/mods/sight_rear_ak_izhmash_akmp_LOD0_emission"
@@ -14,6 +14,7 @@
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".5"
 	"$envmaptint"				".13"
+	"$normalmapalphaenvmapmask"	"1"
 
 	"$phong"					"1"
 	"$phongexponent"			"50"

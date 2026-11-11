@@ -4,11 +4,10 @@
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_aeroknox_butterfly_muzzle_brake_556x45_LOD0_nrm"
 	"$phongexponenttexture"		"sprites/white"
 	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal"
-	"$color2"					"[0.75 0.75 0.75]"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".25"
-	"$envmaptint"				"1"
+	"$envmaptint"				"2"
 
 	"$phong"					"1"
 	"$phongexponent"			"5"
@@ -21,7 +20,7 @@
 	"$rimlightboost"			"30"
 	"$rimmask"					"1"
 
-	"$DEM_TintScale" 			"1" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_TintScale" 			"2" // Color scaling essentially, if you want default envmap tint, leave this as is
 	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
 
 	Proxies

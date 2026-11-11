@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/rpd/barrel_rpd_kiba_sawed_off_350mm_762x39_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/rpd/barrel_rpd_kiba_sawed_off_350mm_762x39_LOD0_nrm"
+	"$phongexponenttexture"		"sprites/white"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal"
+	"$color2"					"[0.6 0.6 0.6]"
+
+	"$envmap"					"env_cubemap"
+	"$envmapfresnel"			".25"
+	"$envmaptint"				".13"
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong"					"1"
+	"$phongexponent"			"50"
+	"$phongboost"				"30"
+	"$phongfresnelranges"		"[0.32 0.72 0.99]"
+	"$phongalbedotint"			"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"80"
+	"$rimlightboost"			".5"
+	"$rimmask"					"1"
+
+	"$detail" "models/weapons/arc9/darsu_eft/rpd/swheat"
+    "$detailscale" "1"
+    "$detailblendfactor" "0"
+    "$detailblendmode" "5"
+
+	"$DEM_TintScale" 			".13" // Color scaling essentially, if you want default envmap tint, leave this as is
+	"$DEM_Multiplier" 			"1" // Multiplies the output, should change this based on other $envmap settings that alter the strength/color
+
+	Proxies
+	{
+		"ARC9_Heat" 
+		{
+			blend $detailblendfactor
+		}
+		"DynamicEnvMap"
+		{
+			resultVar	"$envmaptint"
+		}
+    }
+}
+//Material setup by Shadow_RUN.

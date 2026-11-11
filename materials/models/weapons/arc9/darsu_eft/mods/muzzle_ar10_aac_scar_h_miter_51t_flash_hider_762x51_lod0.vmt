@@ -2,8 +2,8 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_aac_scar_h_miter_51t_flash_hider_762x51_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_aac_scar_h_miter_51t_flash_hider_762x51_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal2"
+	"$phongexponenttexture"		"sprites/white"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal2"
 	"$color2"					"[0.7 0.7 0.7]"
 
 	"$envmap"					"env_cubemap"

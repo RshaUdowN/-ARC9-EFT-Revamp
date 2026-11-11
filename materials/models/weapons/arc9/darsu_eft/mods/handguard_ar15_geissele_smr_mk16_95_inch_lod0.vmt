@@ -2,8 +2,8 @@
 {
 	"$basetexture" "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_95_inch_LOD0_diff"
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/handguard_ar15_geissele_smr_mk16_95_inch_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/exp"
-	"$phongwarptexture"			"models/weapons/arc9/darsu_eft\phongwarp_metal"
+	"$phongexponenttexture"		"sprites/white"
+	"$phongwarptexture"			"models/weapons/arc9/darsu_eft/phongwarp_metal"
 
 	"$envmap"					"env_cubemap"
 	"$envmapfresnel"			".5"
